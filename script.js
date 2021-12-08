@@ -1,3 +1,4 @@
+// 1. Xác định các đối tượng chịu tác động
 let select1 = document.getElementById('1');
 let select2= document.getElementById('2');
 let select3 = document.getElementById('3');
@@ -6,8 +7,10 @@ let label = document.getElementById('label');
 let des = document.getElementById('des');
 let feature = document.getElementById('feature');
 
+// 2. Xử lý: Bắt sự kiện
 determine.addEventListener('click', result);
 
+// 3. Hàm xử lý sự kiện:
 function result() {
     if (select1.value == 'a' && select2.value == 'a' && select3.value == 'a') {
         let name = "alien";
